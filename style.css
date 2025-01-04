@@ -21,3 +21,35 @@
     height: 40px;
     background-color: rgb(68, 117, 120);
 }
+footer{
+    width: 1440px;
+    background: rgb(25, 66, 64);
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    padding: 30px;
+    text-align: center;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.6);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: left;
+}
+footer p:hover{
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: left;
+}
