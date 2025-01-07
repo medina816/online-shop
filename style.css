@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 1440px;
+    margin: 0 auto;
+
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+.second-line {
+    display: flex;
+    gap: 120px;
+}
+.second-line button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(68, 117, 120);
+}
