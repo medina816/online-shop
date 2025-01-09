@@ -116,3 +116,50 @@ left: 0;
     padding: 50px;
     position: relative;
 }
+ 
+.see{
+    margin: 0 auto;
+display: flex;
+background: rgb(27, 25, 24);
+width: 1440px;
+height: 600px;
+gap: 50px;
+}
+.see-text h1{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44.8px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.see-text p{
+    color: rgb(167, 166, 164);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+letter-spacing: 0%;
+text-align: center;
+}
+.see-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 15px;
+}
+.see-img img{
+ width: 258px;
+}
+.see-content{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 100px;
+}
+
+
+
